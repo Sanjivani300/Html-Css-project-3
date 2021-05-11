@@ -1,0 +1,114 @@
+*{
+    margin:0%;
+    padding:0%; 
+}
+body{
+    box-sizing: border-box;
+    color:white;
+}
+.upper-nav{
+    display:flex;
+    background-color: #288581;
+    min-height: 3rem;
+    padding:0.5rem 8rem;
+    justify-content:space-between;
+    align-items: center;
+} 
+.current-div p{
+    border:1px solid white;
+    padding:5px 8px;
+}
+.store-name{
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+} 
+.credentials{
+    display:flex;
+}
+.credentials a{
+    text-decoration: none;
+    color:white;
+    margin-right:30px ;
+}
+.link:hover{
+    border-bottom: 1px solid white;
+}
+.menu-bar{
+    display:inline-block;
+    color:gray;
+    margin:7px;
+    padding:10px;   
+    text-transform:uppercase;
+    word-spacing: 2px;
+}
+#parent{
+    background-color:lightgray;
+    height:430px;
+}
+img{
+    background-size: cover;
+    position: relative;
+    height:480px;
+    float: right;
+    top:110px; 
+    left:40px;
+} 
+#one{
+    position: relative;
+    left:150px;
+    top:100px;
+    font-size: 250px;
+}
+#two{
+    color:#288581;
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+    position: relative;
+    left:280px;
+}
+#three{ 
+    text-transform: uppercase;
+    position: relative;
+    font-size:45px;
+    color:black;
+    left:150px;
+    top:-15px;
+}
+#four{
+    text-transform: uppercase;
+    position: relative;
+    font-size:45px;
+    color:black;
+    left:240px;
+    top:-15px;
+}
+#submit{
+    position: relative;
+    left:280px;
+    top:30px;
+    border:none;
+    text-align:center;
+    background-color:#288581;
+    padding: 10px;
+    color:white;
+    border-radius:30px;
+}
+#submit:hover{
+    cursor:pointer;
+    background:lightgray;
+    color:black;  
+}
+/*.slide{
+    position: relative;
+    top:130px;
+    color:black;
+    background-color:lightgray ;
+} */
+#slide1{
+    color:black;
+    position: relative;
+    top:130px;
+    height:250px;
+    width:250px;
+    background: lightgray;
+}
